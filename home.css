@@ -1,0 +1,69 @@
+
+.container{
+    position:fixed;
+    align-items: center;
+    color:white;
+    background-color:rgb(68, 68, 177);
+    text-align:center;
+    display: inline-flex;
+    gap: 430px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 5px;
+   
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.info{
+   
+    border: solid;
+    position: absolute;
+    text-align: center;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 75%;
+    margin-left: 10%;
+}
+
+.details{
+    position: fixed;
+    position: absolute;
+    gap: 10px;
+    background-color:beige;
+    border: solid;
+    top: 16%;
+    left: 1%;
+    width: 20%;
+    max-width: 350px;
+    height: 1205;
+    max-height: 515px;
+    transform: translate();
+    border-radius: 5px;
+}
+.details{
+    text-align: center;
+    color: black;
+
+    a{
+        color:black;
+
+    }
+}
+
+.save{
+    position: fixed;
+    position: absolute;
+    border: solid;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);   
+    width: 75%;
+    margin-left: 20%;
+    height: 450px;
+    
+}

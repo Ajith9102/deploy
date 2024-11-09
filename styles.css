@@ -1,0 +1,43 @@
+.register{
+    color:rgb(11, 6, 6);
+    
+    text-align: center;
+    
+}
+body{
+    background-image:url(https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg?semt=ais_hybrid://static.vecteezy.com/system/resources/thumbnails/008/617/161/small/abstract-gradient-pastel-blue-and-purple-background-neon-pastel-color-template-for-website-or-presentation-free-free-vector.jpg)
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgb(193, 238, 196);
+    width: 90%;
+    max-width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+
+}
+button{
+    color: rgb(226, 234, 234);
+    background-color: black;
+    border-radius: 8px;
+}
+.head{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+.alert-content {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 300px;
+}

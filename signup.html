@@ -1,0 +1,43 @@
+<html>
+    <title>signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <body>
+        <div class="head">
+            <img src="C:\Users\ajith\Documents\proj1\stor2.jpg" width="60" height="60"><h1>SMART STORAGE</h1>
+        </div>
+        <div class="whole">
+            
+            <div class="container">
+                <div class="register">
+                    <h1>SIGN-UP</h1>
+                </div>
+                <div class="details">
+
+                </div>
+                <form action="welcome.html" method="get">
+            <label for="user">USER:
+                <input type="text" name="user" id="user" placeholder="enter user" pattern="[a-zA-Z0-9]+" required></input>
+            </label><br>
+            <br>
+            <label for="user">PASS:
+                <input type="text" name="pass" id="pass" placeholder="enter PASS" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%&*])[A-Za-z\d!@#$%&*]{8,}$" required></input>
+            </label><br>
+            <br>
+            <div class="details">
+                <label for="age">DOB :
+                    <input type="date" id="age" required>
+                </label>
+            </div>
+            <br>
+          
+            <button>REGISTER</button> 
+          
+            </form>
+            <br>
+            <div class="already">
+                <p>Already have an account <a href="./welcome.html">LOGIN</a></p>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
